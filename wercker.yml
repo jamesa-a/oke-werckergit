@@ -11,8 +11,6 @@ build:
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
-    # Note: Add the following step to pipeline's 'steps:' section.
-    - internal/docker-push:
     # Note: The following parameter can be omitted
     # if your build runs on wercker.com.
     repository: wcr.io/jamesaa/oke-wercker
@@ -20,3 +18,5 @@ build:
         name: echo
         code: |
           echo "hello world!"
+    # Note: Add the following step to pipeline's 'steps:' section.
+    - internal/docker-push:

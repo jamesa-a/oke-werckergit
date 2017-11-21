@@ -23,4 +23,4 @@ build:
         # if your build runs on wercker.com.
         # repository: wcr.io/jamesaa/oke-wercker
         repository: jamesaa/oke-wercker
-        registry: https://registry.hub.docker.com
+        registry: https://hub.docker.com/r/jamesaa/oke-wercker/

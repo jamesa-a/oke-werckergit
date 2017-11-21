@@ -19,7 +19,7 @@ build:
     - internal/docker-push:
         username: jamesaa
         password: $PASSWORD
-        # Note: The following parameter can be omitted
+        # Note: The following parameter can be omitted 
         # if your build runs on wercker.com.
         # repository: wcr.io/jamesaa/oke-wercker
         repository: jamesaa/oke-wercker

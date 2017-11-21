@@ -13,7 +13,7 @@ build:
   steps:
     # Note: The following parameter can be omitted
     # if your build runs on wercker.com.
-    repository: wcr.io/jamesaa/oke-wercker
+    # repository: wcr.io/jamesaa/oke-wercker
     - script:
         name: echo
         code: |
